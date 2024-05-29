@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://thompsoncarlos.github.io/angular-blog/",
+  "homepage": "https://thompsoncarlos.github.io/angular-blog/angular-blog/",
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.1.0",
