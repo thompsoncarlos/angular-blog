@@ -8,9 +8,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
-  "homepage": "https://thompsoncarlos.github.io/angular-blog/angular-blog/",
+  "homepage": "https://thompsoncarlos.github.io/angular-blog/",
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.1.0",
