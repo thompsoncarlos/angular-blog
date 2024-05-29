@@ -4,11 +4,15 @@
 
 .container__menu__title > h1 {
   padding: 15px 0px;
-  font-size: 135px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: normal;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
+}
+
+.container__menu__title p {
+  text-align: center;
 }
 
 .container__menu__title > hr {

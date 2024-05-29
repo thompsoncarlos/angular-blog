@@ -1,8 +1,14 @@
 .container__menu-bar > ul{
+  background-color: #222D4D;
   display: flex;
 }
 
 .container__menu-bar > ul > li{
   margin: 0px 10px;
   list-style: none;
+}
+
+.container__menu-bar > ul > li a, span{
+  background-color: #222D4D;
+  color: #ffffff;
 }

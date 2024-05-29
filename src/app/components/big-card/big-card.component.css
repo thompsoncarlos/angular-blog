@@ -1,7 +1,9 @@
 .container__big-card {
   width: 400px;
-  height: 500px;
-  margin: 0px 20px;
+  height: 400px;
+  margin: 0px 20px 20px 0;
+  border-radius: 8px;
+  background-color: #ffffff;
 
   display: flex;
   flex-direction: column;
@@ -9,19 +11,36 @@
   justify-content: flex-start;
 }
 
+.container__big-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.container__big-card  a{
+  background-color: #ffffff;
+}
+
 .big-card__photo img{
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   width: 400px;
+  height: fit-content;
+  max-height: 200px;
 }
 
 .big-card__title > h1 {
-  margin-top: 15px;
+  padding: 10px;
   font-size: 20px;
+  background-color: #ffffff;
 }
 
 .big-card__description {
+  padding: 0 10px;
+  background-color: #ffffff;
+}
+
+.big-card__description p{
+  background-color: #ffffff;
   margin-top: 20px;
 }
 
-.big-card__description > p > a {
-  color: gray;
-}
+
